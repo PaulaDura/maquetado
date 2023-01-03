@@ -1,0 +1,153 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"concert one";
+    margin: 0;
+    padding: 0;
+}
+
+
+H2{
+    color: #A16AE8;
+}
+
+h3{
+color: #340744;
+}
+
+.boxequipo{
+    justify-content: center;
+    text-align: center;
+    background-color: #B4FEE7;
+}
+
+
+.titulo{
+    color: #000C66;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+header{
+    margin:auto;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-links li:nth-child(1){
+    padding: 0 20px 0 0;
+}
+
+.nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.nav-links a{
+    font-size: 700;
+    color: #282120;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.nav-links li a:hover{
+    color: #FAD02C;
+}
+
+.btn{
+    order: 2;
+}
+
+.btn button{
+    margin-left: 20px;
+    font-weight: 700;
+    color: #444444;
+    font-weight: bolder;
+    padding: 9px 25px;
+    background: #F2E34C;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+ .btn button:hover{
+    background-color: #B4FEE7;
+    color: #A16AE8;
+    transform: scale(1.1);
+}
+
+
+#tarjetas{
+    display: flex;
+    justify-content: center;
+    background:  #B4FEE7;
+}
+
+.tarjeta img{
+    width: 100%;
+}
+
+.tarjeta{
+    width: 20%;
+    margin: 0 30px;
+    background:white;
+    padding: 25px;
+}
+
+
+.piedepagina{
+    background-color:  #EFDCF9;
+    padding: 15px 15px;
+    text-align: center;
+    color: #340744;
+    font-size: 20px;
+}
+
+.mapa{
+  
+   margin: 0 20px;
+   background: #FDFD96;
+   text-align: center;
+
+}
+
+.formulario{
+  margin: 0 20px;
+background: #FDFD96;
+text-align: center;
+
+}
+
+.formulario-mapa{
+width: 100%;
+}
+
+.boxhistoria{
+    display: flex;
+    justify-content: center;
+    background:  #B4FEE7;
+
+}
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  #B4FEE7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
